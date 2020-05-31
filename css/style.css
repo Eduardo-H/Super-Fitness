@@ -1,0 +1,14 @@
+body {
+  font-family: "Lato", "Arial", sans-serif;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  transition: border-bottom 1s, color 0.3s !important;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  border-bottom: 1px #ffc107 solid;
+  padding-bottom: 0.4rem;
+}
