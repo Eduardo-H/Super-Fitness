@@ -1,14 +1,39 @@
 body {
-  font-family: "Lato", "Arial", sans-serif;
+  font-family: "Lato", "Arial", sans-serif !important;
 }
 
 .nav-link:link,
 .nav-link:visited {
-  transition: border-bottom 1s, color 0.3s !important;
+  transition: color 0.2s;
 }
 
 .nav-link:hover,
 .nav-link:active {
-  border-bottom: 1px #ffc107 solid;
-  padding-bottom: 0.4rem;
+  color: #ffc107 !important;
+}
+
+.navbar {
+  border-bottom: #ffc107 3px solid;
+  opacity: 0.8;
+}
+
+#home-header {
+  background: url(../img/home-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+#home-header .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#home-header .home-inner {
+  padding-top: 350px;
 }
