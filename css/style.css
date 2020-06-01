@@ -14,7 +14,7 @@ body {
 
 .navbar {
   border-bottom: #ffc107 3px solid;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 #home-header {
@@ -36,4 +36,57 @@ body {
 
 #home-header .home-inner {
   padding-top: 350px;
+}
+.carousel-image {
+  margin-left: 15%;
+  margin-right: 15%;
+  max-width: 70%;
+  height: auto;
+}
+
+.drk:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.5;
+  margin-left: 15%;
+  margin-right: 15%;
+  max-width: 70%;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    font-size: 14px;
+  }
+
+  .nav-item {
+    padding-left: 5px !important;
+  }
+
+  .section-title {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 398px) {
+  .section-title {
+    font-size: 35px;
+  }
+  .display-3 {
+    font-size: 25px;
+  }
+
+  .section-subtitle {
+    font-size: 15px;
+  }
+
+  #home-header .home-inner {
+    padding-top: 150px;
+  }
 }
