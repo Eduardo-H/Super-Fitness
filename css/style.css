@@ -83,6 +83,19 @@ body {
   padding-right: 1px;
 }
 
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.2s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  text-decoration: none;
+  color: #ffc107;
+}
+
 @media (max-width: 767px) {
   .navbar {
     font-size: 14px;
@@ -115,5 +128,11 @@ body {
 
   #home-header .home-inner {
     padding-top: 150px;
+  }
+
+  #social-links {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
