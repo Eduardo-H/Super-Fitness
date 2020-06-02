@@ -78,6 +78,11 @@ body {
   padding-left: 1px;
 }
 
+.user-name-icon {
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
 @media (max-width: 767px) {
   .navbar {
     font-size: 14px;
@@ -90,6 +95,10 @@ body {
   .section-title {
     font-size: 45px;
   }
+}
+
+#rodape {
+  background: rgb(58, 58, 58);
 }
 
 @media (max-width: 398px) {
