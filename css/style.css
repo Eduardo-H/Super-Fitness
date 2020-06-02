@@ -1,5 +1,6 @@
 body {
   font-family: "Lato", "Arial", sans-serif !important;
+  text-rendering: optimizeLegibility !important;
 }
 
 .nav-link:link,
@@ -15,6 +16,7 @@ body {
 .navbar {
   border-bottom: #ffc107 3px solid;
   opacity: 0.9;
+  background: rgb(37, 37, 37);
 }
 
 #home-header {
@@ -58,6 +60,22 @@ body {
   margin-right: 15%;
   max-width: 70%;
   height: auto;
+}
+
+#filiais .section-title {
+  color: rgb(58, 58, 58);
+}
+
+#filiais .card-body {
+  background: rgb(58, 58, 58);
+}
+
+.fa-map-marker-alt {
+  padding-left: 2px;
+}
+
+.fa-instagram {
+  padding-left: 1px;
 }
 
 @media (max-width: 767px) {
